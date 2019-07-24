@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view.
+  self.view.backgroundColor = UIColor.greenColor;
+}
+  
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+  DetailViewController *vc = [DetailViewController new];
+  [self.navigationController pushViewController:vc animated:true];
 }
 
 

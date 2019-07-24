@@ -13,6 +13,8 @@
 		73D2365122E8407300B68EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D2365022E8407300B68EB0 /* Assets.xcassets */; };
 		73D2365422E8407300B68EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D2365222E8407300B68EB0 /* LaunchScreen.storyboard */; };
 		73D2365722E8407300B68EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2365622E8407300B68EB0 /* main.m */; };
+		73D2365F22E8409B00B68EB0 /* XYThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2365E22E8409B00B68EB0 /* XYThread.m */; };
+		73D2366222E8413500B68EB0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2366122E8413500B68EB0 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		73D2365322E8407300B68EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73D2365522E8407300B68EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D2365622E8407300B68EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73D2365D22E8409B00B68EB0 /* XYThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYThread.h; sourceTree = "<group>"; };
+		73D2365E22E8409B00B68EB0 /* XYThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYThread.m; sourceTree = "<group>"; };
+		73D2366022E8413500B68EB0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		73D2366122E8413500B68EB0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				73D2364822E8407200B68EB0 /* AppDelegate.m */,
 				73D2364A22E8407200B68EB0 /* ViewController.h */,
 				73D2364B22E8407200B68EB0 /* ViewController.m */,
+				73D2366022E8413500B68EB0 /* DetailViewController.h */,
+				73D2366122E8413500B68EB0 /* DetailViewController.m */,
+				73D2365D22E8409B00B68EB0 /* XYThread.h */,
+				73D2365E22E8409B00B68EB0 /* XYThread.m */,
 				73D2364D22E8407200B68EB0 /* Main.storyboard */,
 				73D2365022E8407300B68EB0 /* Assets.xcassets */,
 				73D2365222E8407300B68EB0 /* LaunchScreen.storyboard */,
@@ -141,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73D2366222E8413500B68EB0 /* DetailViewController.m in Sources */,
 				73D2364C22E8407200B68EB0 /* ViewController.m in Sources */,
 				73D2365722E8407300B68EB0 /* main.m in Sources */,
+				73D2365F22E8409B00B68EB0 /* XYThread.m in Sources */,
 				73D2364922E8407200B68EB0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
